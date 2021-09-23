@@ -1,0 +1,32 @@
+
+ <div class="container">
+
+    <h1>gmsh の入力ファイル(.geo) 形式を サーバーに送って メッシュに変換し、.msh 形式で出力する</h1>
+  
+    <div>
+      <label>dimension</label>
+      <div>
+        <input placeholder="3" type="text" [(ngModel)]="dim" id="dim">
+      </div>
+      <label>入力ファイル(.geo)</label>
+      <div>
+        <textarea [(ngModel)]="in" id="in">
+        </textarea>
+      </div>
+    </div>
+  
+    <div>
+      <button (click)="onClickMe()">Submit</button>
+    </div>
+  
+    <div>
+      <label>.msh 形式の出力</label>
+      <div>
+        <textarea [(ngModel)]="out" id="out"></textarea>
+      </div>
+    </div>
+  
+  </div>
+  
+  
+  

@@ -8,20 +8,24 @@ import { ThreeComponent } from './components/three/three.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { HttpClientModule } from '@angular/common/http';
 import { WaitDialogComponent } from './components/wait-dialog/wait-dialog.component';
+import { ServerTestComponent } from './server-test/server-test.component';
+import { DataHelperModule } from './providers/data-helper.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     ThreeComponent,
     MenuComponent,
-    WaitDialogComponent
+    WaitDialogComponent,
+    ServerTestComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     NgbModule,
-    FormsModule 
+    FormsModule,
+    DataHelperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

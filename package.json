@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href \"https://DoboPro.github.io/FEM3D/\" && angular-cli-ghpages",
+    "build": "ng build --prod --base-href \"https://sasaco.github.io/FEM3D/\" && angular-cli-ghpages",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
